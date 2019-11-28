@@ -1,11 +1,11 @@
-/* debuf */
+/* debug */
 
 .debug .container [class*="col-"] {
   border: 1px solid black;
   height: 200px;
 }
 
-/* framework */
+/* framework / regole generali*/
 
 * {
   padding: 0;
@@ -26,6 +26,8 @@
 [class*="col-"] {
   float: left;
 }
+
+/* colonne */
 
 .col-1 {
   width: calc((100% / 12) * 1);
