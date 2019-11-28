@@ -1,12 +1,7 @@
 /* debuf */
 
-.debug .container {
-  border: 1px solid black;
-  height: 200px;
-}
-
 .debug .container [class*="col-"] {
-  border: 1px solid red;
+  border: 1px solid black;
   height: 200px;
 }
 
