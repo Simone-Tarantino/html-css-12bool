@@ -1,0 +1,32 @@
+/* debuf */
+
+.debug .container {
+  border: 1px solid black;
+  height: 200px;
+}
+
+.debug .container [class*="col-"] {
+  border: 1px solid red;
+}
+
+/* framework */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
